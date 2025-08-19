@@ -1,4 +1,4 @@
-# Estructura de `lista-sedes.csv`
+# Estructura de `lista-sedes-datos.csv`
 
 ## Versión extendida de lista-secciones
 

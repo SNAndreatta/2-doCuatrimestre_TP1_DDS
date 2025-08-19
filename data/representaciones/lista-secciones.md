@@ -1,4 +1,4 @@
-# A tener en cuenta
+# Estructura de `lista-secciones.csv`
 
 - ID de la sede
 - Descripción de la sede

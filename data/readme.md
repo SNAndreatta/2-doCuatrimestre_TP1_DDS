@@ -1,0 +1,1 @@
+Para más info de los csv's miren la sección de anotaciones en el documento de google.
