@@ -1,0 +1,27 @@
+# A tener en cuenta
+
+- ID de la sede
+- Descripción de la sede
+    - En castellano
+    - En ingles
+- Tipo de sección
+- Información de la persona a cargo de la sede
+    - Nombre
+    - Apellido
+    - Cargo
+- Telefonos
+    - Teléfono Principal
+    - Lista de telefonos adicionales separados por un " // "
+    - Lo mismo para
+        - Celulares
+        - Faxes
+        - Correos
+        - Sitios web
+- Horarios de atención
+    - Hora
+        - Desde
+        - Hasta
+    - Día
+        - Desde
+        - Hasta
+- Temas
