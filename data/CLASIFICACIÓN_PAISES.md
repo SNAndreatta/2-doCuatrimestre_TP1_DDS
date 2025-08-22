@@ -5,4 +5,3 @@ Este archivo sirve para clasificar y agrupar países según su región y nivel d
 - **IncomeGroup** → Nivel de ingreso del país según la clasificación del Banco Mundial (ej: High income, Upper middle income, Low income).
 - **SpecialNotes** → Notas adicionales (ej: explicación sobre agrupaciones regionales, aclaraciones estadísticas).
 - **TableName** → Nombre oficial del país o región (ej: Argentina, Afghanistan).
-- **Unnamed: 5** → Columna vacía, probablemente un residuo de formato que no aporta información.

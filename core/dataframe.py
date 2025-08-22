@@ -18,3 +18,25 @@ class CustomDataFrame():
         df = pd.read_csv(self.data_frame_path)
         return pd.Series(df.loc[df[column_name].isna(), primary_key])
 
+    def get_all_empty_columns(self, primary_key: str) -> list:
+        """
+        Devuelve una lista de registros con celdas vacías.
+        Cada registro contiene: nombre de la columna vacía, valor de la clave primaria, y el índice (número de fila) en el DataFrame.
+        """
+        primary_key = str(primary_key)
+        df = pd.read_csv(self.data_frame_path)
+
+        empty_cells = []
+
+        for column in df.columns:
+            if df[column].isna().sum() > 0:
+                missing_rows = df[df[column].isna()]
+                for idx, row in missing_rows.iterrows():
+                    empty_cells.append({
+                        'columna_vacia': column,
+                        'clave_primaria': row[primary_key],
+                        'numero_registro': idx + 1
+                    })
+
+        return empty_cells
+

@@ -1,9 +1,8 @@
-
 import pandas as pd
-from core.dataframe import CustomDataFrame
+from data_limpia.filtros.columnas_vacias_PBI import columnas_vacias_PBI
+from data_limpia.filtros.columnas_vacias_lista_secciones import columnas_vacias_lista_sedes
+from data_limpia.filtros.columnas_vacias_lista_sedes_datos import columnas_vacias_lista_sedes_datos
 
-PBI_CSV="data/PBI_MUNDIAL.csv"
-
-data_frame_pbi = CustomDataFrame(PBI_CSV)
-
-print(data_frame_pbi.get_empty_column(2023, "Country Name"))
+columnas_vacias_PBI()
+# columnas_vacias_lista_sedes()
+# columnas_vacias_lista_sedes_datos()
