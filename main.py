@@ -3,8 +3,14 @@ from data_limpia.filtros.columnas_vacias_PBI import columnas_vacias_PBI
 from data_limpia.filtros.columnas_vacias_lista_secciones import columnas_vacias_lista_sedes
 from data_limpia.filtros.columnas_vacias_lista_sedes_datos import columnas_vacias_lista_sedes_datos
 from data_limpia.filtros.regiones_listadas import regiones_listadas
+from data_limpia.custom_dataframes.pbi_modificado import PBI_modificado
+from data_limpia.custom_dataframes.sedes_modificado import SEDES_modificado
+from data_limpia.custom_dataframes.secciones_modificado import SECCIONES_modificado
 
 # columnas_vacias_PBI()
 # columnas_vacias_lista_sedes()
 # columnas_vacias_lista_sedes_datos()
-regiones_listadas()
+# regiones_listadas()
+# PBI_modificado()
+# SEDES_modificado()
+SECCIONES_modificado()

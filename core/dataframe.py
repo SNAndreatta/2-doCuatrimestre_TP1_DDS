@@ -4,15 +4,11 @@ from typing import Any
 class CustomDataFrame():
     def __init__(self, data_frame_path: str):
         self.data_frame_path = data_frame_path
+        self.dataframe = self.original_dataframe
         self.custom = None
-    
-    @property
-    def dataframe(self) -> pd.DataFrame:
-        """El objeto dataframe de pandas creado en base a la ruta proporcionada.
 
-        Returns:
-            pd.DataFrame: El dataframe
-        """
+    @property
+    def original_dataframe(self):
         return pd.read_csv(self.data_frame_path)
 
     def new_dataframe(self, columns_list: list[str]) -> pd.DataFrame:
