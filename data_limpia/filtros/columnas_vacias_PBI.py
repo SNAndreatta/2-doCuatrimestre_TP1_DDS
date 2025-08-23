@@ -1,4 +1,3 @@
-import pandas as pd
 from core.dataframe import CustomDataFrame
 
 def columnas_vacias_PBI():
