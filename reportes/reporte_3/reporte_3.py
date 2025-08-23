@@ -23,10 +23,10 @@ def reporte_3():
 
     # Agrupar por país y contar cantidad de redes distintas
     resumen = (
-        redes_df.groupby("pais")["red"]
+        redes_df.groupby(["pais", "nombre"])["red"]
         .nunique()
         .reset_index(name="cantidad_redes_distintas")
     )
 
-    resumen.to_csv("reportes/reporte_3.csv", index=False)
+    resumen.to_csv("reportes/reporte_3/reporte_3.csv", index=False)
     print(resumen)

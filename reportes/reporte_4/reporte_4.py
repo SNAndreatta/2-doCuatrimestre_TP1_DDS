@@ -30,6 +30,6 @@ def reporte_4():
         ascending=True
     ).reset_index(drop=True)
 
-    reporte_df.to_csv("reportes/reporte_4.csv", index=False)
+    reporte_df.to_csv("reportes/reporte_4/reporte_4.csv", index=False)
 
     print(reporte_df)

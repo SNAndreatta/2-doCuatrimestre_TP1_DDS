@@ -11,14 +11,14 @@ redes = [
 def obtener_red_social(link: str) -> str:
     """
     Detecta el nombre de la red social a partir de un link.
-    Si no la encuentra devuelve 'otro'.
+    Si no la encuentra devuelve 'desconocido'.
     """
     link = link.lower()
     for nombre, alias_list in redes:
         for alias in alias_list:
             if alias in link:
                 return nombre
-    return "otro"
+    return "desconocido"
 
 def limpiar_links(raw: str) -> list[str]:
     """

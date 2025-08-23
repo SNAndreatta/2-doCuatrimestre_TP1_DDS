@@ -35,6 +35,6 @@ def reporte_1():
     # Ordenar el reporte
     resumen = resumen.sort_values(by=["cantidad_sedes", "pais_castellano"], ascending=[False, True])
 
-    resumen.to_csv("reportes/reporte_1.csv", index=False)
+    resumen.to_csv("reportes/reporte_1/reporte_1.csv", index=False)
 
     print(resumen)

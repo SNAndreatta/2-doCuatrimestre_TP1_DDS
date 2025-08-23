@@ -38,6 +38,6 @@ def reporte_2():
     resumen = resumen.sort_values(by="promedio_pbi_per_capita", ascending=False)
 
     # Guardar CSV
-    resumen.to_csv("reportes/reporte_2.csv", index=False)
+    resumen.to_csv("reportes/reporte_2/reporte_2.csv", index=False)
 
     print(resumen)
