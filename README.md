@@ -15,8 +15,7 @@ Se trabajó con datos abiertos del **Banco Mundial** y del **Ministerio de Relac
 ├── core/                # Clase CustomDataFrame y utilidades
 ├── data_limpia/         # Datos procesados y corregidos
 ├── reportes/            # Reportes estadísticos (CSV + scripts)
-├── graficos/            # Gráficos generados (PNG + scripts)
-└── README.md            # Este archivo
+└── graficos/            # Gráficos generados (PNG + scripts)
 ```
 ---
 
